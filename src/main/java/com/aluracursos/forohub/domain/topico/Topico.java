@@ -47,6 +47,15 @@ public class Topico {
     public void desactivarTopico() {
         this.activo = 0;
     }
+
+    public void actualizarDatosPorId(DatosActualizarTopicoPorIdDTO datosActualizarTopicoPorIdDTO) {
+        if (datosActualizarTopicoPorIdDTO.mensaje() != null) {
+            this.mensaje = datosActualizarTopicoPorIdDTO.mensaje();
+        }
+        if (datosActualizarTopicoPorIdDTO.estatus() != null) {
+            this.estatus = datosActualizarTopicoPorIdDTO.estatus();
+        }
+    }
 }
 
 

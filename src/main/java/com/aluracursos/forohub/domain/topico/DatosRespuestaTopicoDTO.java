@@ -8,6 +8,7 @@ public record DatosRespuestaTopicoDTO(
         String mensaje,
         LocalDateTime fechaCreacion,
         String estatus,
-        Integer activo
+        Integer activo,
+        String nombreDelCurso
 ) {
 }
