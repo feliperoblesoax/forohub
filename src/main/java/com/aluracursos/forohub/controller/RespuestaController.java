@@ -3,6 +3,7 @@ package com.aluracursos.forohub.controller;
 import com.aluracursos.forohub.domain.respuesta.CatalogoDeRespuestaService;
 import com.aluracursos.forohub.domain.respuesta.DatosCrearRespuesta;
 import com.aluracursos.forohub.domain.respuesta.DatosDetalleRespuesta;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @ResponseBody
 @RequestMapping("/respuestas")
+@SecurityRequirement(name = "bearer-key")
 public class RespuestaController {
 
     @Autowired
