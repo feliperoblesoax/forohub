@@ -1,6 +1,5 @@
 # Forohub
-
-![forohub](https://github.com/user-attachments/assets/f6a39347-17b1-417c-98a5-89f6ebdf3bb9)
+![forohub-banner](https://github.com/user-attachments/assets/d3b74d7f-bf07-4baa-9b83-656d33552f38)
 
 ## Descripción
 Esta API es el tercer Challenge del curso de Spring Boot en la cual simulamos algunas características de un foro de Internet, se centra en la creacion, lectura, actualizacion y
@@ -26,7 +25,45 @@ de Jason Web Token (JWT)
 
 ## Modo de uso
 Para su utlización descargue el repositorio y ejecutelo (la herramienta que ulizamos fue IntelliJ y creamos una base de datos en mysql de nombre forohub). 
-A continuación se muestran algunos videos de su funcionamiento:
+A continuación se muestran una serie de videos de su funcionamiento:
+
+https://github.com/user-attachments/assets/b57b0f5f-2463-451c-ae72-d1f675daea49
+
+
+
+https://github.com/user-attachments/assets/88ebd4fb-cf20-44f0-9472-f942fdeb3d55
+
+
+
+https://github.com/user-attachments/assets/d905058d-3a94-4d46-8878-412835c3b4d8
+
+
+
+https://github.com/user-attachments/assets/2ee3c734-0949-4ea3-bfb9-9a52ceac21be
+
+
+
+https://github.com/user-attachments/assets/37877585-bc2b-4ed1-aa1a-b4d383e906f1
+
+
+
+https://github.com/user-attachments/assets/74c36fac-877f-4c16-ae76-0a07545f4a53
+
+
+
+https://github.com/user-attachments/assets/b18e9af8-83fb-47e5-a9a0-bfb694eddbd0
+
+
+
+https://github.com/user-attachments/assets/11350b8c-46a6-4b5a-9501-cba13529de2d
+
+
+
+https://github.com/user-attachments/assets/925b39fe-0aab-49b8-a2b3-b2813e470e43
+
+
+
+
 
 
 
