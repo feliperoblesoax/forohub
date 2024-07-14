@@ -23,7 +23,7 @@ public class RespuestaController {
     @PostMapping
     @Transactional
     public ResponseEntity crearRespuesta(@RequestBody @Valid DatosCrearRespuesta datosCrearRespuesta) {
-        catalogoDeRespuestaService.crearRespuesta(datosCrearRespuesta);
-        return ResponseEntity.ok(new DatosDetalleRespuesta(null, null, null,null,null));
+        var response = catalogoDeRespuestaService.crearRespuesta(datosCrearRespuesta);
+        return ResponseEntity.ok(response);
     }
 }

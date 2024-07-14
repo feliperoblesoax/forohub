@@ -8,4 +8,9 @@ public record DatosDetalleRespuesta(
         Long idUsuario,
         String respuesta,
         LocalDateTime fechaCreacion) {
+    public DatosDetalleRespuesta(Respuesta respuesta) {
+        this(respuesta.getId(), respuesta.getTopico().getId(),
+                respuesta.getUsuario().getId(), respuesta.getRespuesta(),
+                respuesta.getData());
+    }
 }

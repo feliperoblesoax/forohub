@@ -21,16 +21,16 @@ public class TratadoDeErrores {
         return ResponseEntity.badRequest().body(errores);
     }
 
-//    @ExceptionHandler(ValidacionDeIntegridad.class)
-//    public ResponseEntity errorHandlerValidacionesDeIntegridad(Exception e) {
-//        return ResponseEntity.badRequest().body(e.getMessage());
-//    }
-//
-//    @ExceptionHandler(ValidationException.class)
-//    public ResponseEntity errorHandlerValidacionesDeNegocio(Exception e) {
-//        return ResponseEntity.badRequest().body(e.getMessage());
-//    }
-//
+    @ExceptionHandler(ValidacionDeIntegridad.class)
+    public ResponseEntity errorHandlerValidacionesDeIntegridad(Exception e) {
+        return ResponseEntity.badRequest().body(e.getMessage());
+    }
+
+    @ExceptionHandler(ValidationException.class)
+    public ResponseEntity errorHandlerValidacionesDeNegocio(Exception e) {
+        return ResponseEntity.badRequest().body(e.getMessage());
+    }
+
     public record DatosErrorValidacion(String campo, String error){
 
         public DatosErrorValidacion(FieldError error) {
